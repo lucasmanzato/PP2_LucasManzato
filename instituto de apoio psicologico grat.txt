@@ -1,0 +1,25 @@
+9. Construa p´aginas com responsividade para ajudar na visualiza¸c˜ao do site em diferentes telas.
+10. O aluno ´e respons´avel pela cria¸c˜ao de todos os arquivos html, JavaScript e PHP. Para a estiliza¸c˜ao
+pode-se utilizar coisas prontas (e.g., Bootstrap). Na argui¸c˜ao, todos dever˜ao estar aptos a explicar
+todos os detalhes da constru¸c˜ao do site.
+11. Utilize JavaScript para atender os requisitos abaixo:
+12. Na p´agina que cont´em o formul´ario, ao preencher todos os dados, o usu´ario deve clicar em
+um bot˜ao de confirma¸c˜ao ou verifica¸c˜ao que ainda n˜ao envia o formul´ario, mas apenas faz a
+verifica¸c˜ao do preenchimento dos campos.
+13. Todos os tipos de entrada devem ter alguma verifica¸c˜ao relevante, por exemplo, n´umero de
+escolhidos para checkbox, n˜ao vazio para campos de texto, valida¸c˜ao de valores para idades ou
+outras verifica¸c˜oes.
+14. Ao clicar no bot˜ao de verifica¸c˜ao, os campos com problemas devem ser claramente indicados, e
+o detalhamento do erro deve ser indicado ao usu´ario, por exemplo com uma borda em vermelho,
+e com um texto explicativo sobre o problema encontrado (span por exemplo).
+15. Caso n˜ao haja problemas apontados na verifica¸c˜ao, o usu´ario deve visualizar de forma organizada
+todos os dados fornecidos (j´a verificados), e o usu´ario n˜ao deve ter a possibilidade de
+alterar os campos preenchidos e verificados, at´e que ele escolha a pr´oxima a¸c˜ao.
+Essa visualiza¸c˜ao pode ser feita na pr´opria p´agina, com estiliza¸c˜ao, ou por meio de uma janela
+modal.
+16. Ap´os a visualiza¸c˜ao dos dados preenchidos corretamente, o usu´ario deve ter trˆes op¸c˜oes: (i)
+limpar todos os dados e recome¸car o preenchimento, (ii) alterar os dados, que deve habilitar
+novamente o preenchimento pelo usu´ario, mas mantendo os dados j´a preenchidos para altera¸c˜ao,
+e (iii) enviar o formul´ario.
+17. O seu sistema deve cuidar para que n˜ao haja a possibilidade de ataques XSS.
+18. JavaScript pode ser usado para quaisquer outras funcionalidades que queira acrescentar no site.

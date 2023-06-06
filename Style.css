@@ -1,0 +1,496 @@
+/* Estilos para o cabeçalho */
+header {
+  background-color: #6f4cc4; /* Cor roxa */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px; /* Defina a largura desejada */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+}
+
+.logo img {
+  display: block; /* Certifique-se de que a imagem se comporte como um bloco */
+  width: 150%;
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.ativo{
+  background-color: #6f4cc4;
+  color: #FAED3E;
+}
+
+.Bheader {
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  background: #6f4cc4;
+  border: none;
+  border-radius: 0px;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  padding: 10px;
+  margin: 2px;
+}
+
+.Bheader:hover {
+  background-color: transparent;
+  color: #FAED3E;
+}
+
+.Bheader.active {
+  background-color: #FAED3E; /* Yellow background for the active button */
+  color: #000; /* Text color for the active button */
+}
+
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #FAED3E; /* Cor amarela */
+  font-weight: bold;
+}
+/*---------------------------------INDEX-----------------------------------------*/
+/*MAIN index*/
+
+body {
+  margin: 0;
+  font-family: Bookman, URW Bookman L, serif;
+  background-color: rgb(188, 188, 188);
+}
+main {
+  width: auto;
+  background: rgb(188, 188, 188);
+  color:black;
+  padding: 33px;
+}
+
+.main-index {
+  margin-right: 15%;
+}
+
+/* Estilos para a seção do herói */
+.hero-section {
+  position: relative;
+  height: auto; /* Defina a altura desejada */
+  overflow: hidden;
+}
+
+.hero-content {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  transform: translate(-30%, -30%);
+  text-align: left;
+  color: black; /* Cor do texto */
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+/* Estilos para a div quem */
+.quem-somos {
+  
+  background-color: rgb(188, 188, 188);
+  text-align: justify;
+  margin-top: 20px;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+
+/* Estilos para aside*/
+
+.sidebar {
+  width: 15%; 
+  height: 100%; 
+  position: absolute; 
+  right: 20px; 
+  top: 25%;
+  background-color: rgb(188, 188, 188);
+}
+
+.professional-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.professional-buttons a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s;
+}
+
+.professional-button {
+  width: 90%;
+  padding: 5%;
+  background-color: #6f4cc4;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 0%;
+}
+
+.professional-button:hover {
+  background-color:#6f4cc4;
+}
+
+aside h2{
+  text-align: left;
+  margin: 10px;
+  font-size: 20px;
+
+}
+
+.atencao {
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin-top: 70%;
+  margin-left: 15px;
+  padding: 0%;
+}	
+.emerg{
+  text-align: center;
+  margin: 0%;
+}
+/*---------------------------------PROFISSIONAIS-----------------------------------------*/
+
+/*Main profissionais*/
+.main_prof{
+  display: block;
+  margin: 0%;
+  width: auto;
+  background: rgb(188, 188, 188);
+  color:black;
+  padding: 33px;
+}
+
+#profissionais {
+  padding: 20px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profissional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profissional img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: #6f4cc4;
+  border: none;
+}
+
+/*---------------------------------Formulario-----------------------------------------*/
+
+/*Fomrulário*/
+.main_form{
+  display: block;
+  margin: 0%;
+  width: auto;
+  background: rgb(188, 188, 188);
+  color:black;
+  padding: 33px;
+}
+
+form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #6f4cc4;
+  background-color: #6f4cc4;
+  border-radius: 5%;
+  text-align: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.checkbox-custom {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #ccc;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.checkbox-custom::before {
+  content: "";
+  display: none;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 3px;
+}
+
+
+#contact-form{
+  background-color: #6f4cc4;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.input-box.error small{
+  color: red;
+  display: block;
+}
+
+.input-box.success small{
+  color: green;
+  display: block;
+}
+
+.input-box.error input {
+  border: 3px solid #DB5A5A;
+}
+
+.input-box.success input {
+  border: 3px solid #5adb9d;
+}
+
+
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+label {
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.terapias, label{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+
+button {
+  padding: 5px;
+  background-color: #FAED3E;
+  color: black;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6f4cc4;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-group button {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  color: #000;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-content {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#modal p {
+  margin: 0 0 10px;
+}
+
+
+/*---------------------------------Confirma-----------------------------------------*/
+
+/*Confirma*/
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+   font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.conteiner p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #6f4cc4;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+
+  nav{
+    display: block;
+  }
+
+  nav ul {
+    height: auto;
+    
+  }
+
+  nav li {
+    margin: 5px 0;
+  }
+
+  /*---------------------------------index -----------------------------------------*/
+  .sidebar {
+    width: 15%; 
+    height: 100%; 
+    position: absolute; 
+    right: 20px; 
+    top: 25%;
+    background-color: rgb(188, 188, 188);
+  }
+
+
+  /*---------------------------------profissionais -----------------------------------------*/
+  .h2-mobile {
+    
+    text-align: center;
+  }
+/*---------------------------------formulario-----------------------------------------*/
+  .radio-mobile {
+    display: flex;
+    flex-direction: column; /* Altera a direção do fluxo para coluna */
+    gap: 10px;
+    padding: 2%;
+  }
+
+/*---------------------------------agradecimento-----------------------------------------*/
+
+
+}
