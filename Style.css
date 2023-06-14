@@ -101,6 +101,10 @@ section {
   padding: 10px;
 }
 
+.carousel-container {
+  background-color: rgb(188, 188, 188);
+}
+
 
 
 /*---------------------------------PROFISSIONAIS-----------------------------------------*/
@@ -115,6 +119,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .profissional {
@@ -395,6 +400,8 @@ footer p {
     gap: 10px;
     padding: 2%;
   }
+
+  
 
 /*---------------------------------agradecimento-----------------------------------------*/
 

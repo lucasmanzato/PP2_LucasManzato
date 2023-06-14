@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <title>Instituto Mente Sã</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
 
@@ -58,15 +57,15 @@
   <main class="main-index">
     <div class="quem-somos">
 
-      <div class="jumbotron jumbotron-fluid ">
+      <div class="jumbotron jumbotron-fluid sty">
         <div class="container">
-          <h1 class="display-4"><b>Sobre o Instituto Mente Sã</b></h1>
+          <h1 class="display-4">Sobre o Instituto Mente Sã</h1>
           <p class="lead">O Instituto Mente Sã é uma plataforma dedicada a fornecer suporte psicológico e emocional de forma prática e acessível.
             Nossa missão é auxiliar pessoas que buscam ajuda psicológica a encontrar profissionais capacitados e obter o suporte
             necessário sem sair de casa.</p>
           <p class="lead">Utilizando as mais recentes tecnologias de comunicação online, oferecemos um ambiente seguro e confidencial para sessões
             terapêuticas, permitindo que você receba atendimento psicológico onde e quando precisar.</p>
-          <h1 class="display-4"><b>Como Funciona</b></h1>
+          <h1 class="display-4">Como Funciona</h1>
           <p class="lead">No Instituto Mente Sã, você tem a liberdade de escolher o profissional de sua preferência. Nossa plataforma apresenta
             uma lista de psicólogos especializados, cada um com sua descrição, área de atuação e abordagem terapêutica.</p>
           <p class="lead">Após escolher um profissional, você pode entrar em contato através dos canais disponibilizados, e-mail ou telefone,

@@ -19,7 +19,7 @@
   <main>
     <section id="profissionais">
       <h2>Para Contato:</h2>
-      <form id="contact-form" action="#" method="post" onsubmit="return validateForm()">
+      <form id="contact-form" action="enviarDados.php" method="post" onsubmit="return validateForm()">
         <div class="control">
           <label for="name"><b>Nome:</b></label>
           <input type="text" id="name" name="name" required>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="submit" formaction="confirma.php">Enviar</button>
+                  <button type="submit">Enviar</button>
                 </div>
               </div>
             </div>
