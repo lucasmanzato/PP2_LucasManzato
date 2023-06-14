@@ -388,22 +388,75 @@ footer p {
 
   /*---------------------------------index -----------------------------------------*/
 
+  .quem-somos{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .lead{
+    font-size: 0.9rem!important;
+  }
+
   /*---------------------------------profissionais -----------------------------------------*/
   .h2-mobile {
     
     text-align: center;
   }
-/*---------------------------------formulario-----------------------------------------*/
+  /*---------------------------------formulario-----------------------------------------*/
   .radio-mobile {
     display: flex;
-    flex-direction: column; /* Altera a direção do fluxo para coluna */
+    flex-direction: row;
     gap: 10px;
     padding: 2%;
+    justify-content: center;
   }
 
   
 
-/*---------------------------------agradecimento-----------------------------------------*/
+  /*---------------------------------agradecimento-----------------------------------------*/
 
 
+  main {
+    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  #profissionais {
+    padding-top: 55px !important;	
+  }
+
+  #mainConfirma{
+    padding: 70px 10px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .table{
+    display: flex;
+    flex-direction: row;
+    width: 50%; 
+  }
+  
+  thead, tbody{
+    width: 50%;
+  }
+
+  tr{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+
+  th{
+    
+  };
+
+  td{
+    width: 100%;
+    text-align: left;
+  }
 }

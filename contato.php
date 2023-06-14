@@ -75,7 +75,7 @@
 
         <h2>Terapias de Interesse:</h2>
         <fieldset class="terapias">
-          <div class="form-group control">
+          <div class="form-group control" id="terapiasInput">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="terapia" value="4" id="checkbox1">
               <label class="form-check-label" for="checkbox1">
